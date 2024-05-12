@@ -1,0 +1,11 @@
+The folder contains INCAR file for vasp and coordinates of atoms for any dft code.
+1) BaZrS3-piezo 
+Lattice constants used are - 7.1345, 10.0418 and 7.0636 in an orthorhombic unitcell. (alpha=beta=gamma=90)
+In a 20 atom unitcell first four atoms are Ba, next four are Zr and rest are S.
+
+2) BaZrO3-piezo
+Lattice constants used are - 4.1569, 4.1569 and 4.1569 in a cubic unitcell. (alpha=beta=gamma=90). In a five atom unitcell first atom is Ba, second one is Zr and rest are O.
+
+3) BaZrS3-flexo
+We use a 80 atom supercell with lattice constants - 7.1345, 7.0636 and 40.1672; (alpha=beta=gamma=90). Here first 48 atoms are S, next 16 are Zr and rest are Ba.
+It has coordinates with a sinusoidal displacement scheme with each file having a different maximum strain gradient.
